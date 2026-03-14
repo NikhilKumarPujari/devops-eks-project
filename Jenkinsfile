@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/yourrepo/devops-eks-project.git'
+                git 'https://github.com/NikhilKumarPujari/devops-eks-project.git'
             }
         }
 
